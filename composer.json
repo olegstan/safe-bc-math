@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^8.0.30",
         "ext-bcmath": "*"
     },
     "autoload": {
@@ -25,7 +25,6 @@
         }
     },
     "require-dev": {
-        "doctrine/coding-standard": "^7.0",
         "phpunit/phpunit": "^8.5",
         "phpstan/phpstan": "^0.12.17",
         "vimeo/psalm": "^3.9"
