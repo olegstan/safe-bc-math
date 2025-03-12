@@ -34,6 +34,8 @@ final class NumberValidator
      */
     public static function validateInput($input) : string
     {
+        $input = sprintf('%.12f', (float)$input);
+
         if (! is_string($input) && ! is_float($input) && ! is_int($input)) {
             throw new TypeError(
                 sprintf(
